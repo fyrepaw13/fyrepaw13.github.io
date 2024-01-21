@@ -21,7 +21,7 @@ Partial RELRO   No canary found   NX disabled   No PIE          No RPATH   No RU
 
 Then, we will use checksec to identify the security protections on the binary. From the result above, there are no security protections enabled on the binary.
 
-```bash
+```
 ┌──(kali㉿kali)-[~/Downloads/getsword]
 └─$ ./get_sword   
       />_________________________________
