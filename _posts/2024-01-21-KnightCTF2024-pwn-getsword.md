@@ -4,7 +4,7 @@ I am writing this writeup to share my thought process on how to tackle a PWN cha
 
 ## Initial Analysis
 
-```sh
+```bash
 └─$ file get_sword           
 get_sword: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, BuildID[sha1]=4a9b260935bf815a04350e3bb9e0e4422f504b2a, for GNU/Linux 4.4.0, not stripped
 ```
