@@ -1,5 +1,7 @@
 # My Blog
 
+Hi, my name is Jeremy Phang Kah Chun
+
 This will be a place where I share all the tools and writeups for CTF challenges that I solved. 
 
 I am also new to making this site so new things will be added gradually.
