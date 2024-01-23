@@ -36,3 +36,12 @@ ForEach ($thing in $things) {
 ```python
 print("Hello")
 ```
+
+
+#### Some Java Code
+
+```java
+class Main {
+    private string var1;
+}
+```
