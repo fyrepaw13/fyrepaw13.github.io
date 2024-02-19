@@ -33,7 +33,7 @@ ForEach ($thing in $things) {
 
 #### Some Python Code
 
-```python
+```tsql
 print("Hello")
 ```
 
@@ -48,6 +48,6 @@ class Main {
 
 #### Test python code
 
-```python
+```powershell
 print("does this work")
 ```
